@@ -42,7 +42,10 @@ input:focus {
     outline: none;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
-
+input::placeholder{
+    font-size: 10px;
+    font-style: italic;
+}
 .input_container {
     background-color: hsl(0, 0%, 100%);
     border: 1px solid#E5E7EB;
@@ -78,7 +81,7 @@ button {
     text-align: center;
     font-size: 48px;
     position: absolute;
-    font-family: 'Norse Bold';
+    font-family: 'Norse Bold','Verdana';
 }
 
 .form_container {
