@@ -20,7 +20,7 @@ body{
 }
 
 input {
-    border: 1px solid#E5E7EB;
+    border: 1.5px solid#E5E7EB;
     padding: 8px 90px;
     border-radius: 5px;
 }
@@ -78,5 +78,5 @@ button {
 }
 .para{
     padding: 25px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
