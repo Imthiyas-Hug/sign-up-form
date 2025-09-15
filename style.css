@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url(fonts/Norse-Bold.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial,Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(254, 255, 242);
+}
+.first_row,
+.second_row,
+.third_row {
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+
+input {
+    border: 1px solid#E5E7EB;
+    padding: 8px 90px;
+    border-radius: 5px;
+}
+
+input[type="password"]:focus:required:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.input_container {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid#E5E7EB;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    padding: 12px 30px;
+    margin: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c7c40b;
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+}
+
+.img_container img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(229, 219, 26);
+}
+.img_container p{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 48px;
+    position: absolute;
+    font-family: 'Norse Bold';
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.para{
+    padding: 25px;
+    margin-bottom: 60px;
+}
